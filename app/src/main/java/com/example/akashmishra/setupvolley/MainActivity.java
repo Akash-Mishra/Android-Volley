@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 textView.setText("onErrorResponse(): " + error.getMessage());
             }
         });
+        queue.add(stringRequest);
     }
 
 
